@@ -1,6 +1,6 @@
 
 import { GoHubot } from "react-icons/go";
-import { BsFillRocketTakeoffFill } from "react-icons/Bs"; 
+import { BsFillRocketTakeoffFill } from "react-icons/bs"; 
 import React, { Component } from "react";
 import SimpleSlider from './slide';
 export default function Home() {
