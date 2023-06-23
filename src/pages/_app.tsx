@@ -1,10 +1,11 @@
+import '../../assets/scss/dist/globals.css'
 import React from "react";
 import Head from "next/head";
 import type { AppProps } from 'next/app'
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 import { SSRProvider } from "react-bootstrap";
-import '../../assets/scss/globals.css'
+// import '../../assets/scss/globals.css'
 
 export default function App({ Component, pageProps }: AppProps) {
 
