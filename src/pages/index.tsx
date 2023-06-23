@@ -1,13 +1,9 @@
-import { FaBeer } from 'react-icons/fa';
-import { BiAccessibility } from "react-icons/bi";
+
+
 import { GoHubot } from "react-icons/go";
-import { GiApc } from "react-icons/Gi";
-import { GiRobotGolem } from "react-icons/Gi";
 import { BsFillRocketTakeoffFill } from "react-icons/Bs"; 
 import React, { Component } from "react";
 import SimpleSlider from './slide';
-import  link  from 'next/link';
-import Link from 'next/link';
 export default function Home() {
     return (
         
