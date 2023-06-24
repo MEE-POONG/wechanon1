@@ -15,13 +15,13 @@ export default class SimpleSlider extends Component {
       <div>
         <h2> </h2>
         <Slider {...settings}>
-          <div className=" mx-20 font-semibold text-2xl flex ">
+          <div className=" text-lg md:mx-20 mx-3 font-semibold md:text-2xl flex">
             <h3>เรียนรู้คำว่า งาน ของจริงในการทำงาน</h3>
           </div>
-          <div className=" mx-20 font-semibold text-2xl flex ">
+          <div className=" text-lg md:mx-20 mx-3 font-semibold md:text-2xl flex">
             <h3>เรียนรู้ผู้อื่น รู้จักสังคมการทำงาน</h3>
           </div>
-          <div className=" mx-20 font-semibold text-2xl flex ">
+          <div className=" text-lg md:mx-20 mx-3 font-semibold md:text-2xl flex">
             <h3>เรียนรู้อัพสกิลที่ใช้ในการทำงานจริง</h3>
           </div>
         </Slider>
