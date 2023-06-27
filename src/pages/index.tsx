@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import About from './about';
 import SimpleSlider from "./slide2";
+import Link from "next/link";
 export default function Home() {
     return (
         <div className='font-fontThai container mx-auto px-10 bg-blue-300 '>
@@ -19,9 +20,9 @@ export default function Home() {
                 <p className="my-5  mt-15 text-3xl font-bold tracking-tight text-white sm:text-4xl text-center">Everyday is a fresh start.</p>
             </div>
                 <div className=" text-center w-full  mx-auto">
-                <a href="about">
+                <Link href="about">
                     <button className="bg-white hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-20 md:px-40 border border-blue-500 hover:border-transparent rounded">About</button>
-                </a>
+                </Link>
                 </div>
                 
                 
