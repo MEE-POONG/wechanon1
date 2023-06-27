@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SimpleSlider from "./slide2";
+import Link from "next/link";
 
 
 export default function About(){
@@ -98,9 +99,9 @@ export default function About(){
                 
                 </div>
             <div className=" p-5  mx-auto text-center">
-                <a href="/">
+                <Link href="/">
                     <button className=" mt-7 bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-20 md:px-40 border border-blue-500 hover:border-transparent rounded">back</button>
-                </a>
+                </Link>
                 </div>
         </div>
     )
